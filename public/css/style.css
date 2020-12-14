@@ -3,9 +3,13 @@ body {
   margin: 0;
 }
 
-.navbar {
+.navbar-style {
   font-size: 12px;
   color: black;
+  text-decoration: none;
+  display: flex;
+
+  justify-content: right;
 }
 
 h1 {
