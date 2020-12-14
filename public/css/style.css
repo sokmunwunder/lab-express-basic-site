@@ -7,10 +7,45 @@ body {
   font-size: 12px;
   color: black;
   text-decoration: none;
-  display: flex;
-
-  justify-content: right;
 }
+
+.nav-bar {
+  background-color: lightgrey;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  color: darkgrey;
+}
+
+.flex-item-one {
+  flex-basis: 0%
+  flex-shrink: 1;
+  margin-right: 30px;
+  position: relative;
+}
+
+.flex-item-two {
+  flex-basis: 0%;
+  flex-shrink: 1;
+  margin-right: 30px;
+  position: relative;
+}
+
+.flex-item-three {
+  flex-basis: 0%;
+  flex-shrink: 1;
+  margin-right: 30px;
+  position: relative;
+}
+
+.flex-item-four {
+  flex-basis: 0%;
+  margin-right: 30px;
+  flex-shrink: 1;
+ 
+  position: relative;
+}
+
 
 h1 {
   font-size: 2rem;
