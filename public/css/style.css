@@ -1,6 +1,7 @@
 body {
   font-family: 'Trebuchet MS';
-  margin: 0;
+  margin-bottom: 0;
+ 
 }
 
 .navbar-style {
@@ -49,4 +50,14 @@ body {
 
 h1 {
   font-size: 2rem;
+}
+
+footer {
+  color: black;
+  font-size: 9px;
+  margin-top: 400px;
+  background:white;
+  padding: 8px;
+  padding-left: 10px;
+  border-top: 2px solid grey;
 }
