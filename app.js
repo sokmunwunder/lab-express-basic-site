@@ -9,22 +9,32 @@ const app = express();
 app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views');
 
+app.locals.pageTitle = 'Rick Warren Intro';
+
 app.use(express.static('public'));
 
 app.get('/', (request, response) => {
-  response.render(__dirname + '/views/home.hbs');
+  response.render(__dirname + '/views/home.hbs', {
+    pageTitle: 'RW Home'
+  });
 });
 
 app.get('/works', (request, response) => {
-  response.render(__dirname + '/views/works.hbs');
+  response.render(__dirname + '/views/works.hbs', {
+    pageTitle: 'RW Works'
+  });
 });
 
 app.get('/about', (request, response) => {
-  response.render(__dirname + '/views/about.hbs');
+  response.render(__dirname + '/views/about.hbs', {
+    pageTitle: 'RW About'
+  });
 });
 
 app.get('/photos', (request, response) => {
-  response.render(__dirname + '/views/photos.hbs');
+  response.render(__dirname + '/views/photos.hbs', {
+    pageTitle: 'RW Photos'
+  });
 });
 
 app.listen(3000);
