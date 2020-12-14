@@ -1,7 +1,7 @@
 body {
   font-family: 'Trebuchet MS';
   margin-bottom: 0;
-  height: 400px;
+  /*height: 400px;*/
  
 }
 
@@ -72,5 +72,19 @@ footer {
   background: url('/images/rw_thegospelherald.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 20px;
+  padding: 200px 40px;
+}
+
+/*.picture-two{
+  background: url('/images/rw_kw_ocregister.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 100px;
+}*/
+
+#text-about{
+  color: darkolivegreen;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
