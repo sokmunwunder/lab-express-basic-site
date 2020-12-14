@@ -1,6 +1,7 @@
 body {
   font-family: 'Trebuchet MS';
   margin-bottom: 0;
+  height: 400px;
  
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 .nav-bar {
-  background-color: lightgrey;
+  background-color:white;
   padding: 10px 0;
   display: flex;
   justify-content: flex-end;
@@ -49,15 +50,27 @@ body {
 
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-left: 50px;
+  margin-bottom: 350px;
+  color: darkolivegreen;
+  position: relative;
 }
 
 footer {
   color: black;
   font-size: 9px;
-  margin-top: 400px;
+  /*margin-top: 400px;*/
   background:white;
   padding: 8px;
   padding-left: 10px;
   border-top: 2px solid grey;
+  background-color: lightgrey;
+}
+
+.picture-one{
+  background: url('/images/rw_thegospelherald.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
 }
