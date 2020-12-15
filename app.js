@@ -15,25 +15,29 @@ app.use(express.static('public'));
 
 app.get('/', (request, response) => {
   response.render(__dirname + '/views/home.hbs', {
-    pageTitle: 'RW Home'
+    pageTitle: 'RW Home',
+    imageAccreditation: 'Image Accreditation: The Gospel Herald'
   });
 });
 
 app.get('/works', (request, response) => {
   response.render(__dirname + '/views/works.hbs', {
-    pageTitle: 'RW Works'
+    pageTitle: 'RW Works',
+    imageAccreditation: 'Image Accreditation: None'
   });
 });
 
 app.get('/about', (request, response) => {
   response.render(__dirname + '/views/about.hbs', {
-    pageTitle: 'RW About'
+    pageTitle: 'RW About',
+    imageAccreditation: 'Image Accreditation: OCRegister'
   });
 });
 
 app.get('/photos', (request, response) => {
   response.render(__dirname + '/views/photos.hbs', {
-    pageTitle: 'RW Photos'
+    pageTitle: 'RW Photos',
+    imageAccreditation: 'Image Accreditation: None'
   });
 });
 
